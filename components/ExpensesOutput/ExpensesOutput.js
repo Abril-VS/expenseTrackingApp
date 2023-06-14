@@ -32,7 +32,7 @@ const DUMMY_EXPENSES = [
     {
         id: "5e", 
         description: "Airpods", 
-        amount: 199.99, 
+        amount: 199.993, 
         date: new Date('2023-06-05')
     },
     {
@@ -44,7 +44,7 @@ const DUMMY_EXPENSES = [
     {
         id: "7e", 
         description: "Cinema", 
-        amount: 10.99, 
+        amount: 10.099, 
         date: new Date('2023-05-25')
     },
     {
