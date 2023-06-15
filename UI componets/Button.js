@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     button: {
         borderRadius: 4, 
         padding: 8, 
-        backgroundColor: GlobalStyles.colors.primary700
+        backgroundColor: GlobalStyles.colors.primary400
     },
 
     flat: {

@@ -8,15 +8,16 @@ import {formatingDate} from "../../util/date";
 
 
 function ExpenseItem({description, date, amount, id}){
+
     const navigation = useNavigation();
-    function expebsePressHandler(){
+    function expensePressHandler(){
         navigation.navigate("ManageExpense", {
             expenseId: id
         });
     }
     return(
     <Pressable 
-        onPress={expebsePressHandler} 
+        onPress={expensePressHandler} 
         style={({pressed}) => pressed && styles.pressed}
     >
         <View style={styles.container}>
