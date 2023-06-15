@@ -12,7 +12,8 @@ function RecentExpenses(){
         
         return expense.date > date7DaysAgo;
     });
-    return  <ExpensesOutput expenses={recentExpenses} expensesPeriod={"Last 7 Days"} />
+    return  <ExpensesOutput expenses={recentExpenses} expensesPeriod={"Last 7 Days"} 
+    fallbackText={"No Expenses Registered in the last 7 days "} />
 
 }
 
